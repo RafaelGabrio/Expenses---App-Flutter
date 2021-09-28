@@ -8,7 +8,7 @@ class ExpensesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(home: MyHomePage());
   }
-}
+} 
 
 class MyHomePage extends StatelessWidget {
 
@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
                 elevation: 5,
               ),
             ),
-            TransationUser()
+            TransactionUser()
           ],
         ));
   }
